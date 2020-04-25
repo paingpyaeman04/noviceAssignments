@@ -11,6 +11,8 @@ public class Triangle {
 				System.out.println("Right Triangle");
 			else if(a == b && b == c)
 				System.out.println("Equilateral Triangle");
+			else
+				System.out.println("Not a right or equilateral trianlge");
 	
 		} else
 			System.out.println("Invalid Triangle!");
