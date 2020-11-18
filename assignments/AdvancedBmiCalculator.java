@@ -57,7 +57,7 @@ public class AdvancedBmiCalculator {
 		
 		switch(choice) {
 			case 1: bmiCalculator.metric(); break;
-			case 2: bmiCalculator.british();; break;
+			case 2: bmiCalculator.british(); break;
 			default: System.out.println("Invalid Input!");
 		}
 		
