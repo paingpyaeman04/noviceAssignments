@@ -3,15 +3,12 @@ package novice.assignments;
 public class HarmonicSum {
 
 	public static void main(String[] args) {
-		int i, n = 1000;
+		int i, n = 50000;
 		double sumLToR = 0.0, sumRToL = 0.0;
 		
 		for(i = 1; i <= n; i++) {
 			sumLToR += 1.0/i;
 			sumRToL += 1.0/(n-i+1);
-			System.out.println("Harmonic Sum from left to right: " + sumLToR);
-			System.out.println("Harmonic Sum from right to left: " + sumRToL);
-			System.out.println();
 		}
 		
 		System.out.println("Harmonic Sum from left to right: " + sumLToR);
